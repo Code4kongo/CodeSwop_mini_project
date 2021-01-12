@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <footer className="footer"> 
             <p>Want to unsubscribe?</p>
-            <p> &2021 MTN South Africa</p>
+            <p>  &copy; 2021 MTN South Africa</p>
             <p>All Rights Reserved. Terms and conditions Apply </p>
         </footer>
     )

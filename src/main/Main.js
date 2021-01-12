@@ -1,7 +1,11 @@
 import React from 'react'
+import { useState } from 'react'
 import './main.css'
 
 const  Main = () => {
+
+    const [phoneNumber, setPhoneNumber] = useState("")
+
     return (
         <div className="main">
             <div className="main-header">
@@ -14,7 +18,7 @@ const  Main = () => {
             </div>
             <div className="form-container">
                 <form>
-                    <input type="text" placeholder="082 4234392" className="input-number"/>
+                    <input type="text" placeholder="082 4234392" className="input-number" value={phoneNumber}/>
                     <input type="button" value="continue" className="btn-continue"/>
                     <input type="button" value="cancel" className="btn-cancel"/>
                 </form>
