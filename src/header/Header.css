@@ -1,0 +1,48 @@
+.header {
+    background-color: #fc0;
+    padding-left: 25px;
+    padding-top: 20px;
+    border-radius: 0 0 15% 15%;
+    height: 120px;
+} 
+
+.main-title {
+    padding-left: 50px;
+    font-weight: 900;
+    font-style: oblique;
+}
+.logo {
+    width: 35px;
+    height: 35px;
+    float: left;
+    padding-left: 5px;
+}
+.paragraph {
+    padding-left: 50px;
+}
+
+@media (max-width : 715px) {
+    .header {
+        background-color: #fc0;
+        padding-left: 25px;
+        padding-top: 20px;
+        border-radius: 0 0 15% 15%;
+        height: 120px;
+    } 
+    
+    .main-title {
+        padding-left: 50px;
+        font-weight: 900;
+        font-style: oblique;
+    }
+    .logo {
+        width: 35px;
+        height: 35px;
+        float: left;
+        padding-left: 5px;
+    }
+    .paragraph {
+        padding-left: 50px;
+    }
+
+}

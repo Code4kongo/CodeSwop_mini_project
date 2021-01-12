@@ -1,0 +1,54 @@
+.main {
+    margin-bottom: 200px;
+    
+}
+.main-header {
+    text-align: center;
+    margin-bottom: 35px;
+}
+.want-to-subscribe{
+    color: rgb(0, 110, 255);
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+p {
+    padding-left: 30px;
+}
+.form-container {
+    text-align: center;
+    margin-top: 20px;
+}
+.input-number {
+    margin : auto;
+    width: 80%;
+    height: 50px;
+    text-align: start;
+    border : 1px solid rgb(209, 207, 207);
+    border-radius: 25px 25px 25px 25px ;
+    padding-left: 15px;
+}
+.btn-continue {
+    margin: auto;
+    width: 80%;
+    height: 45px;
+    display: block;
+    background-color: #fc0;
+    font-weight: bold;
+    font-size: larger;
+    border: none;
+    border-radius: 25px 25px 25px 25px ;
+    margin-top: 15px;
+
+}
+.btn-cancel {
+    margin: auto;
+    width: 80%;
+    height: 45px;
+    display: block;
+    font-weight: bold;
+    font-size: larger;
+    color: rgb(0, 110, 255);
+    border: none;
+    border-radius: 25px 25px 25px 25px ;
+    margin-top: 15px;
+}

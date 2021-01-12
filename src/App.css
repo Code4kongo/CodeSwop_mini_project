@@ -1,0 +1,14 @@
+.container {
+  margin: auto;
+  margin-top: 5%;
+  width: 35%;
+  background-color: #eee;
+}
+
+@media (max-width : 715px) {
+  .container {
+    margin: 0;
+    width: 100vh;
+    background-color: #eee;
+  }
+}
